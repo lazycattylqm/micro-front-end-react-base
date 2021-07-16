@@ -16,10 +16,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test",
+    "eject": "rescripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "react-app-rewired": "^2.1.8"
+    "@rescripts/cli": "^0.0.16"
   }
 }
